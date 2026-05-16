@@ -1,0 +1,37 @@
+# Python
+focusguard_backend/venv/
+focusguard_backend/focusguard_venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment variables — NEVER push these
+focusguard_backend/.env
+
+# Django
+focusguard_backend/db.sqlite3
+
+# Node
+focusguard_frontend/node_modules/
+focusguard_frontend/dist/
+focusguard_frontend/.env
+focusguard_frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# More
+.env
+venv/
+__pycache__/
+db.sqlite3
